@@ -1,0 +1,131 @@
+/*
+Theme Name:     CHILDmullins-rbwpixelpress
+Description:    Child theme for Mullins Roofing.
+Author:         Kyle
+Template:       pixelpress
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../rbwpixelpress/style.css");
+.call-us {
+padding: 8px;
+width: 25%;
+background: #cce94b;
+background: -webkit-gradient(linear, left top, left bottom, from(#cce94b), to(#8eaa14));
+background: -webkit-linear-gradient(#cce94b, #8eaa14);
+background: -moz-linear-gradient(center top, #cce94b 0%, #8eaa14 100%);
+background: -moz-gradient(center top, #cce94b 0%, #8eaa14 100%);
+filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cce94b,endColorstr=#8eaa14);
+-ms-filter: "progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr=#cce94b, endColorstr=#8eaa14)";
+border-radius: 5px;
+display: inline-block;
+font-size: 2em;
+text-align: center;
+color: white;
+border: 4px outset #cce94b;
+line-height: 1em;
+text-shadow: -1px 1px 1px gray;
+margin: 0 0 0 15px;
+}
+.call-us span {
+font-size: 0.7em;
+}
+#it_rotatingtext-group-0 {
+float: left;
+}
+.head-stuff {
+	float: right;
+	width: 65%;
+	padding: 15px 0 0 0;
+}
+#header-wrap #header #logo {
+padding-right: 0;
+}
+#main #home-blog ul li {
+margin-right: 0;
+width: 33%;
+}
+.home .minor.flexslider {
+margin: 0;
+}
+.testimonials {
+	list-style: none;
+}
+.testimonials li {
+	margin: 30px 0;
+}
+/* Kyle's landing page styling */
+.page-template-template-landing-php #header-right, .page-template-template-landing-php .rotatingtext-wrapper {
+	display: none;
+}
+.page-template-template-landing-php .call-us {
+	width: 45%;
+	font-size: 3em;
+	float: right;
+	margin: 28px 50px 0 0;
+}
+.page-template-template-landing-php p {
+	font-size: 1.2em;
+}
+.landing #main {
+	width: 55%;
+}
+.landing .gform_wrapper {
+	width: 44%;
+	float: right;
+}
+.landing #gform_wrapper_1 input.medium, .landing .gform_wrapper .gfield_label {
+	width: 100%;
+}
+.landing #gform_wrapper_1 input[type=submit] {
+	font-size: 3em;
+	width: 100%;
+}
+.visit-site {
+	width: 100%;
+	text-align: center;
+	font-size: 1.5em;
+	display: inline-block;
+}
+.mr-slogan {
+	display: inline-block;
+	font-size: 2em;
+	font-style: italic;
+	max-width: 390px;
+	color: #CECECE;
+}
+/***Responsive adjustments***/
+@media only screen and (max-width: 500px) {
+.rotatingtext-wrapper, .rss, #content .slider-container {
+display: none;
+}
+.page-template-template-landing-php .call-us {
+width: 95%;
+margin: 0;
+}
+.landing #main {
+	width: 100%;
+}
+.landing .gform_wrapper {
+	width: 100%;
+}
+}
+@media only screen and (max-width: 870px) {
+.head-stuff {
+	float: none;
+	width: 100%;
+}
+.mr-slogan {
+	max-width: none;
+	width: 95%;
+	display: block;
+}
+.call-us {
+	width: 95%;
+	margin: 0;
+}
+#main #home-blog ul li {
+	width: 100%;
+}
+}
