@@ -1,4 +1,7 @@
 <?php
+
+die(); // RIP
+
 /*----------------------------------
 Adding categories to the features post type
 ------------------------------------*/
